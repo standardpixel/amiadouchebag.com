@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=1036">
+	<title>Am I a Douchebag?</title>
+	
+	<style>
+		body {
+			background-color:#7D7D7D;
+			color:#fff;
+			font-family:georgia,garamond,serif;
+		}
+		h1 {
+			font-size:42px;
+			font-weight:normal;
+			padding:0;
+			margin:0;
+			margin-bottom:10px;
+			line-height:48px;
+		}
+		#wrapper {
+			width:360px;
+			text-align:left;
+			margin:100px auto;
+			height:100px;
+		}
+		#ad {
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Determining your Douchiness...</h1>
+		<img src="ajax-loader.gif" border="0">
+	</div>
+	
+	<div id="ad">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7920208636620438";
+		/* Am I A Douchebag */
+		google_ad_slot = "0300714820";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+	</div>
+	
+	<script>
+	(function() {
+		var wrapper_div = document.getElementById('wrapper');
+		
+		setTimeout(function() {
+			wrapper_div.innerHTML = '<h1>Yes, you are in fact a douchebag.</h1> <a href="?again">Test Again.</a>';
+		},10000);
+	})();
+	</script>
+</body>
+</html>
